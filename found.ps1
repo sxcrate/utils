@@ -104,6 +104,7 @@ $k=[Math]::Ceiling(100/2);$o=New-Object -ComObject WScript.Shell;for($i = 0;$i -
 $s=New-Object -ComObject SAPI.SpVoice
 $s.Rate = -2
 $s.Speak("Ti abbiamo trovato $FN")
+$s.Speak($FN)
 $s.Speak("Sappiamo dove sei")
 $s.Speak("Noi siamo tutto")
 $s.Speak("Stiamo arrivando")
