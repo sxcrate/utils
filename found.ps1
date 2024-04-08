@@ -2,7 +2,7 @@ function Get-fullName {
 
     try {
 
-    $fullName = Net User $Env:username | Select-String -Pattern "Nome Completo";$fullName = ("$fullName").TrimStart("Nome Completo")
+    $fullName = Net User $Env:username | Select-String -Pattern "Nome Completo";$fullName = ("$fullName").TrimStart("Nome completo")
 
     }
  
